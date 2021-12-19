@@ -52,6 +52,9 @@ body {
   color: var(--accent-color);
 }
 
+.link .current {
+  color: var(--accent-color);
+}
 /* hero */
 
 .hero {
@@ -91,6 +94,19 @@ body {
 }
 .team .specialization {
   color: var(--primary-text-color);
+}
+
+/*Страница портфолио*/
+
+.list .button {
+  background-color: #f5f4fa;
+  color: var(--title-color);
+}
+
+.list .button:hover,
+.list .button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 /*Подвал*/
