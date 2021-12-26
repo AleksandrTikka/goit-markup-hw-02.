@@ -88,6 +88,7 @@ body {
 
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* section */
@@ -139,6 +140,7 @@ body {
 .filter .button {
   background-color: #f5f4fa;
   color: var(--title-color);
+  cursor: pointer;
 }
 
 .filter .button:hover,
