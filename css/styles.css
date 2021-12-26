@@ -84,7 +84,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% */
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -140,7 +139,14 @@ body {
 .filter .button {
   background-color: #f5f4fa;
   color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
   cursor: pointer;
+  font-family: inherit;
+  letter-spacing: inherit;
 }
 
 .filter .button:hover,
